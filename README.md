@@ -9,6 +9,8 @@
 5. 统计合并项数量
 6. 导出处理后的Excel文件
 
+# 设计过程
+
 ## 安装依赖
 
 ```bash
@@ -17,11 +19,14 @@ pip install -r requirements.txt
 
 ## 使用方法
 
-1. 运行程序：
+运行程序：
 ```bash
 python excel_processor.py
 ```
 
+# 使用方法
+
+1. 点击exe文件
 2. 点击"导入Excel文件"按钮选择要处理的Excel文件
 3. 在"列选择"部分选择要保留的列
 4. 在"列排序"部分通过上移/下移按钮调整列的顺序
